@@ -1,0 +1,31 @@
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #58f085;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin-top: 50px;
+  height: 1366px;
+  height: 768px;
+}
+
+h1, p {
+  margin: 10px 0;
+}
+.schedule {
+  margin-top: 20px;
+  text-align: left;
+  display: inline-block;
+}
+.schedule div {
+  margin: 5px 0;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
