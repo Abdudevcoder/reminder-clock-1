@@ -7,7 +7,7 @@ const alarmTimes = [
 ]; // Full alarm times in HH:MM format
 
 function playAlarm() {
-  document.getElementById('status').textContent = 'Alarm ringing!';
+  document.getElementById('status').textContent = 'Qongiroq chalish vaqti!';
   audio.play();
   setTimeout(() => {
     document.getElementById('status').textContent = 'Waiting for alarms...';
