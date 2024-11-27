@@ -8,7 +8,10 @@ body {
   padding: 0;
   height: 100vh; 
   display: flex; 
-  justify-content: center; 
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0; 
   align-items: center; 
 }
 
@@ -22,6 +25,7 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
   border-radius: 10px; 
   background-color: #ffffff; 
+  
 }
 
 .shcedule_time {
@@ -45,4 +49,15 @@ h1, p {
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
+}
+
+.bottom-div {
+  color: aqua;
+  position: absolute; /* Allows you to position it anywhere in the window */
+  bottom: 0; /* Moves the div to the bottom of the window */
+  width: 100%; /* Optional: Make it span the full width */
+  text-align: center; /* Center its content horizontally */
+  padding: 10px, 0; /* Add some padding for spacing */
+  background-color: black; /* Optional: Background for visibility */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional: A slight shadow */
 }
